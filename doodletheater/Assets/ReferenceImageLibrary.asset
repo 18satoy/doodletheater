@@ -21,7 +21,17 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 2610260031909102344
       m_GuidHigh: 10560280732379271561
-    m_Size: {x: 0.1, y: 0.2}
+    m_Size: {x: 0.05, y: 0.1}
     m_SpecifySize: 1
     m_Name: girl
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5065762903957521838
+      m_GuidHigh: 12672260690728257195
+    m_SerializedTextureGuid:
+      m_GuidLow: 16484925258353406678
+      m_GuidHigh: 7295305406441631755
+    m_Size: {x: 0.1, y: 0.09620399}
+    m_SpecifySize: 1
+    m_Name: test
     m_Texture: {fileID: 0}
