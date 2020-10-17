@@ -65,9 +65,11 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11542}
+      Script: {instanceID: 11540}
     - Class: 114
-      Script: {instanceID: 11692}
+      Script: {instanceID: 11690}
+    - Class: 114
+      Script: {instanceID: 11716}
     - Class: 114
       Script: {instanceID: 11892}
     - Class: 114
@@ -84,8 +86,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13272}
     - Class: 114
       Script: {instanceID: 13410}
-    - Class: 114
-      Script: {instanceID: 14214}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -251,6 +251,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 2405c4962b0815da60cab2a20badc659
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ARTapToPlaceObject
   - hash:
       serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
@@ -719,12 +725,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 2405c4962b0815da60cab2a20badc659
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ARTapToPlaceObject
   platform: 9
   scenePathNames:
   - Assets/Scenes/AR-ify.unity
