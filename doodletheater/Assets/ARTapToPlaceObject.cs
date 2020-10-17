@@ -49,6 +49,7 @@ public class ARTapToPlaceObject : MonoBehaviour
             else
             {
                 spawnedObject.transform.position = hitPose.position;
+                spawnedObject.transform.rotation = hitPose.rotation;
             }
         }
     }
