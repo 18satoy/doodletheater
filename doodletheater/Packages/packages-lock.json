@@ -73,6 +73,16 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
+    "com.unity.xr.arfoundation": {
+      "version": "2.1.8",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.xr.legacyinputhelpers": "2.1.1",
+        "com.unity.xr.arsubsystems": "2.1.2"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.xr.arkit": {
       "version": "2.1.9",
       "depth": 0,
