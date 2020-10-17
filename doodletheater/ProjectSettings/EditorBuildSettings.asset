@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Title.unity
+    guid: 4133813ede6e34dcb8dc11ad17fc569d
+  - enabled: 1
+    path: Assets/Scenes/HomeScreen.unity
+    guid: a1805d236aeed40899923e51ef4653dc
+  - enabled: 1
+    path: Assets/Scenes/NewRoom.unity
+    guid: aa48acb14f787426187c4628fa409c53
+  - enabled: 1
     path: Assets/Scenes/AR-ify.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
