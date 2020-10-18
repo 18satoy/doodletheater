@@ -1,5 +1,5 @@
 # doodletheater
-HackGT7 Project: AR drawing-to-life project where kids draw characters on a printable template, upload them, and interact with peers in a virtual theater with those characters.
+HackGT7 Project: AR drawing-to-life project where kids draw characters on a printable template, upload them, and interact with peers in a virtual theater featuring those characters.
 
 APIs/Assets Used: Firebase, ARFoundation, Agora.io Voice Call
 
