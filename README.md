@@ -1,2 +1,12 @@
 # doodletheater
-GT7 Hackathon Project: AR app for children where they collaborate to create and share small stories featuring their doodles
+HackGT7 Project: AR drawing-to-life project where kids draw characters on a printable template, upload them, and interact with peers in a virtual theater with those characters.
+
+APIs/Assets Used: Firebase, ARFoundation, Agora.io Voice Call
+
+Instructions to build:
+Import Agora Voice Call Asset from the Unity Asset Store. 
+Build from Unity, then build on XCode.
+
+References:
+The Noun Project (https://thenounproject.com/)
+Freepik (www.freepik.com)
