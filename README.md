@@ -7,6 +7,9 @@ Instructions to build:
 Import Agora Voice Call Asset from the Unity Asset Store. 
 Build from Unity, then build on XCode.
 
+Instructions:
+Print Doodle Template, draw your character, load the app and enjoy!
+
 References:
 The Noun Project (https://thenounproject.com/)
 Freepik (www.freepik.com)
