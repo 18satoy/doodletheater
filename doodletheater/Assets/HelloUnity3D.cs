@@ -20,7 +20,7 @@ public class HelloUnity3D : MonoBehaviour
     // Get your own App ID at https://dashboard.agora.io/
     // After you entered the App ID, remove ## outside of Your App ID
     [SerializeField]
-    private string AppID = "8a963b62dc6d41df900afdbeb33db71f";
+    private string AppID = "app_id";
 
     void Awake()
     {

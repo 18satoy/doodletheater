@@ -8,11 +8,19 @@ using TMPro;
 [RequireComponent(typeof(ARRaycastManager))]
 public class ARTapToPlaceObject : MonoBehaviour
 {
-    public GameObject gameObjectToInstantiate;
+    [SerializeField]
+    private GameObject char1;
+    [SerializeField]
+    private GameObject char2;
 
     private GameObject spawnedObject;
+    private GameObject spawnedObject2;
     private ARRaycastManager _arRaycastManager;
     private Vector2 touchPosition;
+
+    private bool charselected = false;
+
+    private int count = 0;
 
     static List<ARRaycastHit> hits = new List<ARRaycastHit>();
 
@@ -41,19 +49,45 @@ public class ARTapToPlaceObject : MonoBehaviour
         //}
         if (Input.touchCount == 1)
         {
-            //if (_arRaycastManager.Raycast(touchPosition, hits, TrackableType.PlaneWithinPolygon))
-            if (_arRaycastManager.Raycast(Input.GetTouch(0).position, hits, TrackableType.PlaneWithinPolygon))
+            if (Input.GetTouch(0).phase == TouchPhase.Began)
             {
-                var hitPose = hits[0].pose;
 
-                if (spawnedObject == null)
+
+                if (_arRaycastManager.Raycast(Input.GetTouch(0).position, hits, TrackableType.PlaneWithinPolygon))
                 {
-                    spawnedObject = Instantiate(gameObjectToInstantiate, hitPose.position, hitPose.rotation);
-                }
-                else
-                {
-                    spawnedObject.transform.position = hitPose.position;
-                    spawnedObject.transform.rotation = hitPose.rotation;
+                    var hitPose = hits[0].pose;
+
+                    if (spawnedObject == null)
+                    {
+                        charselected = true;
+                        spawnedObject = Instantiate(char1, hitPose.position, hitPose.rotation);
+                        charselected = false;
+                    }
+                    else if (spawnedObject2 == null && !charselected)
+                    {
+                        charselected = true;
+                        spawnedObject2 = Instantiate(char2, hitPose.position, hitPose.rotation);
+                        charselected = false;
+                    }
+                    else
+                    {
+                        if (count % 2 == 0 && !charselected)
+                        {
+                            charselected = true;
+                            spawnedObject.transform.position = hitPose.position;
+                            spawnedObject.transform.rotation = hitPose.rotation;
+                            count++;
+                            charselected = false;
+                        }
+                        else if (count % 2 == 1 && !charselected)
+                        {
+                            charselected = true;
+                            spawnedObject2.transform.position = hitPose.position;
+                            spawnedObject2.transform.rotation = hitPose.rotation;
+                            count++;
+                            charselected = false;
+                        }
+                    }
                 }
             }
         }

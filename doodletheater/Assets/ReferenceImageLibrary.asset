@@ -26,22 +26,22 @@ MonoBehaviour:
     m_Name: girl
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5065762903957521838
-      m_GuidHigh: 12672260690728257195
+      m_GuidLow: 5748529274866430573
+      m_GuidHigh: 9195914602388812724
     m_SerializedTextureGuid:
-      m_GuidLow: 16484925258353406678
-      m_GuidHigh: 7295305406441631755
-    m_Size: {x: 0.1, y: 0.09620399}
+      m_GuidLow: 15279739955067023387
+      m_GuidHigh: 5615128966370984458
+    m_Size: {x: 0.1, y: 0.13333334}
     m_SpecifySize: 1
-    m_Name: test
+    m_Name: sheep
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5552289448297569794
-      m_GuidHigh: 5019182644997301137
+      m_GuidLow: 5273477120682339825
+      m_GuidHigh: 2256933581748486841
     m_SerializedTextureGuid:
-      m_GuidLow: 6094158180691877264
-      m_GuidHigh: 16293504454187988763
-    m_Size: {x: 0.6, y: 0.45958245}
+      m_GuidLow: 15346245351209191950
+      m_GuidHigh: 17804665869524631529
+    m_Size: {x: 0.1, y: 0.13333334}
     m_SpecifySize: 1
-    m_Name: TheaterSpace
+    m_Name: ghost
     m_Texture: {fileID: 0}
